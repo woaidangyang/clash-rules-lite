@@ -1,4 +1,7 @@
 payload:
+  - DOMAIN-KEYWORD,flybase
+  - DOMAIN-KEYWORD,nih.gov
+  - DOMAIN-KEYWORD,semanticscholar
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,outlook
