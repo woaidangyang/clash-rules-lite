@@ -5,5 +5,10 @@ payload:
   - DOMAIN-SUFFIX,madou.club
   - DOMAIN-SUFFIX,wnacg.org
   - DOMAIN-SUFFIX,xhamster.com
-  - DOMAIN-SUFFIX,xnxx.com
-  
+  - DOMAIN-KEYWORD,porn,REJECT
+  - DOMAIN-KEYWORD,xx,REJECT
+  - DOMAIN-KEYWORD,jav,REJECT
+  - DOMAIN-KEYWORD,xiuren,REJECT
+  - DOMAIN-KEYWORD,girl,REJECT
+  - DOMAIN-KEYWORD,spank,REJECT
+  - DOMAIN-KEYWORD,tik,REJECT
