@@ -1,17 +1,13 @@
-
+### 规则地址
 <p>
   https://cdn.jsdelivr.net/gh/woaidangyang/clash-rules-lite@release/    
 </p>
 
-
 ### 工具介绍
-+ Clash 默认的GFW代理规则内容太多，使用过程中明显感觉到有延迟
-+ 本工具的想法是代理规则一边用一边添加，毕竟我们访问的网站应该很有限
-+ 该工具的目的是删除不必要的代理规则，方便用户自定义代理的内容
-+ 代理规则放在github仓库中方便多设备同步，只需编辑[rules.txt](https://github.com/zhanyeye/clash-rules-lite/blob/main/rules.txt)即可
+
++ 代理规则放在github仓库中方便多设备同步，只需编辑[-rules.txt]即可
 + 当用户更新规则后，使用Github Actions自动将规则缓存到免费CDN上 
 + 用户在 github 上更新规则后，在 clash 的 providers 上点击刷新即可拉取更新
-
 
 ### 如何自定义
 1. fork 本仓库：[Fork zhanyeye/clash-rules-lite](https://github.com/zhanyeye/clash-rules-lite/fork) 
@@ -31,12 +27,6 @@
     padding: 2px;">启动流水线示意图</div>
   </center>
 </div>
-
-
-Tips:
-> a. 可通过访问进行验证 `https://cdn.jsdelivr.net/gh/{你的GITHUB用户名}/clash-rules-lite@release/`   
-> c. **该仓中以 rules.txt 结尾的文件，都会缓存到 jsdelivr CDN中，可以自定义！**    
-
 
 ### 在 Clash Desktop 中生效
 
@@ -122,42 +112,6 @@ rule-providers:
   </center>
 </div>
 
-### 在OpenWrt的OpenClash中生效
-> OpenWrt 是一个软路由系统，如果你没有用到，请忽略”
-
-需要更新配置文件的`rules`和 `rule-providers`, 注意：
-+ 用户名需要替换成用户自己的!!!
-+ rules 中所属的group需要替换成自己的 `proxy-groups`!!!
-```
-rules:
-  - RULE-SET,Proxy,🔰 节点选择
-  - RULE-SET,Microsoft,Ⓜ️ 微软服务
-  - RULE-SET,Backlist,🛑 全球拦截
-  - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
-rule-providers:
-  Proxy:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/zhanyeye/clash-rules-lite@release/proxy-rules.txt"
-    path: ./providers/rule-proxy.yaml
-    interval: 86400
-  Microsoft:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/zhanyeye/clash-rules-lite@release/microsoft-rules.txt"
-    path: ./providers/rule-microsoft.yaml
-    interval: 86400
-  Backlist:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/zhanyeye/clash-rules-lite@release/blacklist-rules.txt"
-    path: ./providers/rule-backlist.yaml
-    interval: 86400 
-```
-
-
-
 
 
 ### 自定义代理规则
@@ -178,21 +132,6 @@ rule-providers:
   </center>
 </div>
 
-> OpenClash 中刷新操作
-
-配置文件管理 -> 规则集文件列表 -> 删除所有文件 -> 返回概览 -> 应用配置
-<div align="center">
-  <center>
-    <img width="800" style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://user-images.githubusercontent.com/35565811/214744014-f348b5af-477f-465c-842d-e40d36d4a92b.png">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">OpenClash上删除规则集文件, 并重新应用配置</div>
-  </center>
-</div>
 
 
 + jsdelivr CDN 缓存没有更新怎么办？
