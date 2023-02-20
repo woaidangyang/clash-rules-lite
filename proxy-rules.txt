@@ -1,5 +1,12 @@
 payload:
   - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,outlook
+  - DOMAIN-KEYWORD,live
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,doi
+  - DOMAIN-KEYWORD,nytimes
+  - DOMAIN-KEYWORD,economist
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,githubusercontent.com
