@@ -11,9 +11,9 @@
   </p>
  
   <p align="center">
-    <a href="https://github.com/zhanyeye/clash-rules-lite/blob/main/proxy-rules.txt">代理规则列表</a> |
-    <a href="https://github.com/zhanyeye/clash-rules-lite/blob/main/microsoft-rules.txt">微软服务规则列表</a> |
-    <a href="https://github.com/zhanyeye/clash-rules-lite/blob/main/blacklist-rules.txt">黑名单规则列表</a>
+    <a href="https://github.com/woaidangyang/clash-rules-lite/blob/main/proxy-rules.txt">代理规则列表</a> |
+    <a href="https://github.com/woaidangyang/clash-rules-lite/blob/main/microsoft-rules.txt">微软服务规则列表</a> |
+    <a href="https://github.com/woaidangyang/clash-rules-lite/blob/main/blacklist-rules.txt">黑名单规则列表</a>
   </p>
 
 </p>
