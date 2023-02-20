@@ -1,26 +1,6 @@
-<p align="center">
-  <img width="100px" src="https://user-images.githubusercontent.com/35565811/214613019-6fd702b7-445e-4663-8471-f47005241724.png" align="center" alt="GitHub Readme Stats" />
-  <h2 align="center">Clash Rules Lite</h2>
- 
-  <p align="center">🍒 自定义代理规则，精简匹配规则。</p>
- 
-  <p align="center">
-    <a href="https://github.com/zhanyeye/clash-rules-lite/blob/master/.github/workflows/release.yml">
-    <img src="https://github.com/zhanyeye/clash-rules-lite/actions/workflows/release.yml/badge.svg" />
-    </a>
-  </p>
- 
-  <p align="center">
-    <a href="https://github.com/woaidangyang/clash-rules-lite/blob/main/proxy-rules.txt">代理规则列表</a> |
-    <a href="https://github.com/woaidangyang/clash-rules-lite/blob/main/microsoft-rules.txt">微软服务规则列表</a> |
-    <a href="https://github.com/woaidangyang/clash-rules-lite/blob/main/blacklist-rules.txt">黑名单规则列表</a>
-  </p>
-
-</p>
 
 <p>
-  <pre align="center">
-  https://cdn.jsdelivr.net/gh/woaidangyang/clash-rules-lite@release/p    
+  https://cdn.jsdelivr.net/gh/woaidangyang/clash-rules-lite@release/    
 </p>
 
 
